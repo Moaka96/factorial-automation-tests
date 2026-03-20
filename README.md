@@ -1,4 +1,4 @@
- ** factorial-automation-tests**
+  factorial-automation-tests
  
 This repository contains loadrunner tests for a factorial calculator web app, including UI validation, functional testing, and API verification.
 
