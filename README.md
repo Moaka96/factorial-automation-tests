@@ -9,6 +9,7 @@ Overview
 
 This project contains automated tests for the Factorial web application:
 http://qainterview.pythonanywhere.com
+tests are found in a zipped directory : Scripts.zip
 
  
 
