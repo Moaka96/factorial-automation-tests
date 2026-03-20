@@ -1,80 +1,55 @@
-# factorial-automation-tests
-This repository contains Playwright automation tests for a factorial calculator web app, including UI validation, functional testing, and API verification.
+ ** factorial-automation-tests**
+ 
+This repository contains loadrunner tests for a factorial calculator web app, including UI validation, functional testing, and API verification.
 
 
-# Factorial App Automation Tests
+Factorial App Automation Tests
 
-## Overview
+Overview
 
 This project contains automated tests for the Factorial web application:
 http://qainterview.pythonanywhere.com
 
-The tests were created as part of a QA assessment and cover UI functionality, validation, and API behaviour.
+ 
 
----
+Tools Used
 
-## Tools Used
+  Playwright (JavaScript)
+  Node.js
 
-* Playwright (JavaScript)
-* Node.js
+ 
 
----
+Test Coverage
 
-## Test Coverage
+   1. Functional Test
 
-### 1. Functional Test
+Verify factorial calculation for valid input (e.g. 12 → 479001600)
 
-* Verify factorial calculation for valid input (e.g. 12 → 479001600)
+   2. Validation Test
 
-### 2. Validation Test
+  Verify behaviour when input is empty
+  Check for validation styling (UI feedback)
 
-* Verify behaviour when input is empty
-* Check for validation styling (UI feedback)
+   3. API Test
 
-### 3. API Test
+  Verify request method (GET)
+  Validate response correctness
 
-* Verify request method (GET)
-* Verify query parameter (number)
-* Verify request headers
-* Validate response correctness
 
----
-
-## Project Structure
-
-```
-tests/
-  factorial.spec.js
-  validation.spec.js
-  api.spec.js
-```
-
----
-
-## How to Run Tests
+How to Run Tests
 
 1. Install dependencies:
-
-```
-npm install
-```
-
+loadrunner
 2. Run tests:
+VuGen
 
-```
-npx playwright test
-```
+  Notes
 
----
+  Some tests may fail due to known defects in the application (e.g. missing validation styling)
+  UI validation is limited by current application implementation
 
-## Notes
-
-* Some tests may fail due to known defects in the application (e.g. missing validation styling)
-* UI validation is limited by current application implementation
-
----
-
-## Author
+ 
+ Author
 
 Lisbon Ramothwala
 
